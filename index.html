@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Love</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Page 1 -->
+  <section id="page1" class="page">
+    <h1>Hi Baby 💖</h1>
+    <button onclick="nextPage(2)">Enter My Heart</button>
+  </section>
+
+  <!-- Page 2 -->
+  <section id="page2" class="page hidden">
+    <h2>🌸 My Favorite Moments of You</h2>
+    <img src="photo1.jpg" alt="Photo 1" />
+    <img src="photo2.jpg" alt="Photo 2" />
+    <img src="photo3.jpg" alt="Photo 3" />
+    <p><em>...and many more to come 💕</em></p>
+    <button onclick="nextPage(3)">Next</button>
+  </section>
+
+  <!-- Page 3 -->
+  <section id="page3" class="page hidden">
+    <div class="hearts"></div>
+    <div class="poem">
+      <p>Six months have flown, yet every day...</p>
+      <!-- Poem content here -->
+    </div>
+    <button onclick="nextPage(4)">You have a voice mail 🎤</button>
+  </section>
+
+  <!-- Page 4 -->
+  <section id="page4" class="page hidden mint">
+    <h2>Voice Mail</h2>
+    <audio controls>
+      <source src="voicenote.mp3" type="audio/mp3">
+    </audio>
+    <button onclick="nextPage(5)">To the future ➡️</button>
+  </section>
+
+  <!-- Page 5 -->
+  <section id="page5" class="page hidden">
+    <h2>Our Forever 💍</h2>
+    <img src="collage.jpg" alt="Collage of Us" />
+    <p>
+      One day, I’ll be holding your hand in our home, watching the rain… kids running around, laughter in the background. From six months to six decades, I want it all with you.
+    </p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

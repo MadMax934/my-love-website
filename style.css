@@ -1,0 +1,18 @@
+
+body { margin: 0; font-family: 'Arial'; background: #fff; transition: all 1s ease; }
+.page { display: none; padding: 2rem; text-align: center; }
+.page.active { display: block; }
+.page.mint { background-color: #dff6f5; }
+.hidden { display: none; }
+button { padding: 1rem; margin-top: 2rem; font-size: 1.1rem; background: #fca; border: none; border-radius: 10px; }
+img { max-width: 90%; height: auto; margin: 1rem 0; }
+.hearts::before {
+  content: "💗 💖 💞 💘";
+  display: block;
+  font-size: 2rem;
+  animation: float 3s infinite linear;
+}
+@keyframes float {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-100px); opacity: 0; }
+}

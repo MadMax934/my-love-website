@@ -4,10 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Our Love</title>
+  <title>For My Love</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <!-- Page 1 -->
   <section id="page1" class="page">
     <h1>Hi Baby 💖</h1>
@@ -17,38 +18,63 @@
   <!-- Page 2 -->
   <section id="page2" class="page hidden">
     <h2>🌸 My Favorite Moments of You</h2>
-    <img src="photo1.jpg" alt="Photo 1" />
-    <img src="photo2.jpg" alt="Photo 2" />
-    <img src="photo3.jpg" alt="Photo 3" />
+    <img src="img1.jpg" alt="Her Pic 1" />
+    <img src="img2.jpg" alt="Her Pic 2" />
+    <img src="img3.jpg" alt="Her Pic 3" />
     <p><em>...and many more to come 💕</em></p>
-    <button onclick="nextPage(3)">Next</button>
+    <button onclick="nextPage(3)">Next ➡️</button>
   </section>
 
   <!-- Page 3 -->
   <section id="page3" class="page hidden">
-    <div class="hearts"></div>
-    <div class="poem">
-      <p>Six months have flown, yet every day...</p>
-      <!-- Poem content here -->
-    </div>
-    <button onclick="nextPage(4)">You have a voice mail 🎤</button>
+    <div class="hearts" id="hearts"></div>
+    <h2>My Poem For You 💌</h2>
+    <p>
+      Six months have flown, yet every day,<br>
+      My heart still skips in your sweet way.<br>
+      Your laugh, your touch, your loving gaze—<br>
+      Each moment sets my soul ablaze.<br><br>
+      Like petals soft, our love unfolds,<br>
+      A story time will never hold.<br>
+      For in your arms, I’ve found my light,<br>
+      My joy, my peace, my day and night.<br><br>
+      Half a year, yet it feels like years<br>
+      Of whispered hopes and happy tears.<br>
+      With every sunrise, this is true—<br>
+      I fall in love again with you.<br><br>
+      So here’s to us, to love so bright,<br>
+      To stolen kisses, late-night talks,<br>
+      To walking forward, hand in hand,<br>
+      Through every step this life demands.<br><br>
+      Happy six months, my heart’s delight,<br>
+      With you, my world feels just right.
+    </p>
+    <button onclick="nextPage(4)">🎤 You have a voice mail</button>
   </section>
 
   <!-- Page 4 -->
   <section id="page4" class="page hidden mint">
-    <h2>Voice Mail</h2>
+    <h2>My Voice, My Heart 💕</h2>
+    <p>Here’s a piece of my heart... just listen 🎧</p>
     <audio controls>
-      <source src="voicenote.mp3" type="audio/mp3">
+      <source src="voicenote.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
     </audio>
-    <button onclick="nextPage(5)">To the future ➡️</button>
+    <br><br>
+    <button onclick="nextPage(5)">To the future 💫</button>
   </section>
 
   <!-- Page 5 -->
   <section id="page5" class="page hidden">
-    <h2>Our Forever 💍</h2>
-    <img src="collage.jpg" alt="Collage of Us" />
-    <p>
-      One day, I’ll be holding your hand in our home, watching the rain… kids running around, laughter in the background. From six months to six decades, I want it all with you.
+    <h2>Our Tomorrow</h2>
+    <img src="collage.jpg" alt="Our Memories Collage" style="max-width: 80%; border-radius: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);" />
+    <p style="margin-top: 30px; font-size: 1.1rem;">
+      One day, I see us sipping chai while watching the rain,<br>
+      Your head on my shoulder, no words, no pain.<br>
+      A home filled with laughter, whispers at night,<br>
+      Your eyes still my favorite sight.<br><br>
+      We'll grow old, hand in hand, you and me,<br>
+      Just like we were always meant to be 💍
     </p>
   </section>
 
